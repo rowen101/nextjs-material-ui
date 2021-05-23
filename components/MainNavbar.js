@@ -84,7 +84,7 @@ const useStyles = makeStyles((theme) => ({
   },
   content: {
     flexGrow: 1,
-    padding: theme.spacing(3),
+    padding: theme.spacing(2),
   },
   title: {
     flexGrow: 1,
@@ -163,15 +163,11 @@ export default function MiniDrawer(props) {
         <Divider />
         <List>
           <MenuItem
-            link="/warehouse-management/"
-            label={"Warehouse Management"}
+            link="/project/"
+            label={"Project"}
             icon={FolderIcon}
           ></MenuItem>
-          <MenuItem
-            link="/stock-receipts/"
-            label={"Stock Receipts"}
-            icon={FolderIcon}
-          ></MenuItem>
+          <MenuItem link="/dimo/" label={"Dimo"} icon={FolderIcon}></MenuItem>
         </List>
         <Divider />
         <List>
